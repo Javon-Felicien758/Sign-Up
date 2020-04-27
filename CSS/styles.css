@@ -1,0 +1,31 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width: 1440px){
+    
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-container div {
+        border: solid 1px;
+        padding: 5px;
+    
+    }
+    
+    .sub-container-1 {
+        flex-basis: 50%;
+    }
+    
+    .sub-container-2 {
+        flex-direction: column;
+        flex-basis: 30%;
+    }
+}
+
+body {
+    background-image: url("/images/bg-intro-desktop.png");
+    filter: saturate(20%);
+}
